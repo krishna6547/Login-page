@@ -1,45 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  
-</head>
-<body>
-  <h1>🔥 Password Visibility Toggler 🛡️</h1>
-  <h2>🎯 Features</h2>
-  <ul>
-    <li>✅ Eye-catching password reveal icon 👁️</li>
-    <li>✅ Smooth toggle animation ⚡</li>
-    <li>✅ Minimal and clean UI design 🎨</li>
-    <li>✅ Fully responsive design 📱</li>
-  </ul>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=35&duration=4000&pause=200&color=F75C7E&vCenter=true&width=600&height=70&lines=%F0%9F%94%A5+Password+Visibility+Toggler+%F0%9F%9B%A1%EF%B8%8F;%F0%9F%92%A1+Smooth+UI+Design+With+CSS+Animation+%F0%9F%92%A1;%F0%9F%9A%80+Built+for+Developers+%F0%9F%9A%80" alt="Animated Heading">
+</p>
 
-  <h2>🚀 How to Run</h2>
-  <pre>
-  git clone https://github.com/yourusername/password-toggler.git
-  open test.html
-  </pre>
+---
 
-  <h2>🌈 Tech Stack</h2>
-  <table>
-    <tr><td>HTML5</td><td>Structure 🏗️</td></tr>
-    <tr><td>CSS3</td><td>Styling 🎨</td></tr>
-    <tr><td>JavaScript</td><td>Logic ⚡</td></tr>
-  </table>
+## 🎯 Features
+✅ Eye-catching password reveal icon 👁️  
+✅ Smooth toggle animation ⚡  
+✅ Minimal and clean UI design 🎨  
+✅ Fully responsive design 📱  
 
-  <h3>🎉 Upcoming Features</h3>
-  <ul>
-    <li>🔥 Dark Mode Support</li>
-    <li>🛡️ Enhanced Security Check</li>
-    <li>🎵 Sound Effect on Toggle</li>
-  </ul>
+---
 
-  <h3>📝 Contributing</h3>
-  <p>We ❤️ contributions! Feel free to create an issue or submit a PR. 🚀</p>
+## 🚀 How to Run
+```bash
+git clone https://github.com/yourusername/password-toggler.git
+open test.html
+```
 
-  <h3>📌 License</h3>
-  <p>MIT License 📜</p>
+---
 
-  <h3>🌟 Star this repo if you liked it! ⭐⭐⭐⭐⭐</h3>
-</body>
-</html>
+## 🌈 Tech Stack
+| Technology    | Purpose              |
+|---------------|-------------------|
+| HTML5         | Structure 🏗️     |
+| CSS3          | Styling 🎨         |
+| JavaScript    | Logic ⚡           |
+
+---
+
+## 🎉 Upcoming Features
+- 🔥 Dark Mode Support  
+- 🛡️ Enhanced Security Check  
+- 🎵 Sound Effect on Toggle  
+
+---
+
+## 📝 Contributing
+We ❤️ contributions!  
+Feel free to create an issue or submit a PR. 🚀  
+
+---
+
+## 📌 License
+MIT License 📜  
+
+---
+
+🌟 **Star this repo if you liked it!** ⭐⭐⭐⭐⭐  
+
+---
+
+## 🎯 Live Demo 🔥
+🌐 **[Click here to view the live preview 🚀](https://krishna6547.github.io/Login-page/)**  
