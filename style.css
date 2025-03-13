@@ -1,0 +1,81 @@
+
+.password-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  #passwordInput {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .field-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .eye-icon {
+    width: 24px;
+    height: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .eye-open, .eye-pupil {
+    transition: opacity 0.3s ease;
+  }
+  
+  .eye-slash {
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .password-toggle-checkbox:checked + .password-toggle-label .eye-slash {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .password-toggle-checkbox:checked + .password-toggle-label .eye-open,
+  .password-toggle-checkbox:checked + .password-toggle-label .eye-pupil {
+    opacity: 0.3;
+  }
+  
+  .password-toggle-label:hover .eye-icon {
+    color: #007bff;
+  }
+  
+  .password-toggle-checkbox {
+    display: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a600ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4b055b;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
