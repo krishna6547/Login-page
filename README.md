@@ -51,5 +51,6 @@ MIT License 📜
 
 ---
 
-## 🎯 Live Demo 🔥
-🌐 **[Click here to view the live preview 🚀](https://krishna6547.github.io/Login-page/)**  
+## 🎯 Live Preview 🔥  
+
+[![Live Preview](https://raw.githubusercontent.com/krishna6547/Login-page/main/preview.png)](https://htmlpreview.github.io/?https://github.com/krishna6547/Login-page/blob/main/test.html)
