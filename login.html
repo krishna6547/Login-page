@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Secure Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function togglePasswordVisibility() {
+      var passwordInput = document.getElementById("passwordInput");
+      var passwordToggle = document.getElementById("passwordToggle");
+      passwordInput.type = passwordToggle.checked ? "text" : "password";
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("passwordInput").addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          checkPassword();
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>Secure Access</h1>
+      <p>Enter your credentials:</p>
+      <div class="password-field">
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <div class="field-icon">
+          <input type="checkbox" id="passwordToggle" class="password-toggle-checkbox" onclick="togglePasswordVisibility()">
+          <label for="passwordToggle" class="password-toggle-label">
+            <svg class="eye-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="eye-open" d="M12 5C5 5 1 12 1 12C1 12 5 19 12 19C19 19 23 12 23 12C23 12 19 5 12 5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="eye-pupil" d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" fill="currentColor"/>
+              <path class="eye-slash" d="M2 2L22 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0;"/>
+            </svg>
+          </label>
+        </div>
+      </div>
+      <button onclick="checkPassword()">Submit</button>
+      <p id="message" class="error-message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
